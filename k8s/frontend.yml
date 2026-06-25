@@ -16,7 +16,7 @@ spec:
        - name: acr-secret
       containers:
        - name: frontend
-         image: acrdevops20261.azurecr.io/frontend:v4
+         image: acrdevops20261.azurecr.io/frontend:v5
          ports:
            - containerPort: 80
 ---
